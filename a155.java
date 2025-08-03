@@ -30,4 +30,34 @@ public class a155 {
         printArr(arr);
     }
 }
-    
+
+
+//      Dry Run with Example {5, 4, 1, 3, 2}
+// Pass 1 (i = 1): curr = 4
+// Compare with 5 → 5 > 4 → shift
+
+// Insert 4 at index 0 → {4, 5, 1, 3, 2}
+
+// Pass 2 (i = 2): curr = 1
+// Compare with 5 → shift
+
+// Compare with 4 → shift
+
+// Insert 1 at index 0 → {1, 4, 5, 3, 2}
+
+// Pass 3 (i = 3): curr = 3
+// Compare with 5 → shift
+
+// Compare with 4 → shift
+
+// Insert 3 at index 1 → {1, 3, 4, 5, 2}
+
+// Pass 4 (i = 4): curr = 2
+// Compare with 5 → shift
+
+// Compare with 4 → shift
+
+// Compare with 3 → shift
+
+// Insert 2 at index 1 → {1, 2, 3, 4, 5}
+

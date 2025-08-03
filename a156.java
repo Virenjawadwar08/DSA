@@ -1,5 +1,5 @@
 import java.util.Arrays; 
-
+//inbuilt sort
 public class a156 {
     public static void printArr(int arr[]) {
         for(int i=0;i<arr.length;i++) {
@@ -14,3 +14,12 @@ public class a156 {
         printArr(arr);
     }
 }
+
+// to reverse order
+
+// Arrays.sort(arr,Collections.reverseOrder())
+
+// par iske use krne ke liye int ko Integer likhna padega
+// to compare two numbers this collections are used 
+// also aise bhi likh sakte hai // Arrays.sort(arr,si,ei,Collections.reverseOrder())
+//si=starting index, ei= ending index

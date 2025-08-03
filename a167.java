@@ -35,6 +35,8 @@ public class a167 {
 
         //secondary diag
 
+
+        //odd matrix eg.3x3 where i+j is equal to n-1
         if(i!=matrix.length-1-i) {
             //this is when i is not equal to j
             sum+=matrix[i][matrix.length-i-1];
