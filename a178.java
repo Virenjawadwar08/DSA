@@ -68,7 +68,7 @@ public class a178 {
                 newStr+=count.toString();
             }
         }
-        return newStr;
+        return newStr; //O(n);
     }
     public static void main(String[] args) {
 
